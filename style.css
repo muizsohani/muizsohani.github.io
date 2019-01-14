@@ -1,0 +1,57 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0px;
+}
+
+slider {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #1f1f1f;
+	overflow: hidden;
+	position: absolute;
+
+}
+
+slider > * {
+	position: absolute;
+	display: block;
+	{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #1f1f1f;
+	animation: slide 5s infinite;
+	overflow: hidden;
+}
+
+slide: nth-child(1) {
+	left: 0%;
+	animation-delay: :-1s;
+	background-image: url(studwell.jpg)
+	background-size: cover;
+	background-position: center;
+
+}
+
+slide: nth-child(2) {
+	left: 0%;
+	animation-delay: : 2s;
+	background-image: url(Capture.jpg)
+	background-size: cover;
+	background-position: center;
+	
+}
+
+slide p {
+	font-family: Comfortaa;
+	font-size: 50px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 340px;
+	color: #fff;
+}
+
