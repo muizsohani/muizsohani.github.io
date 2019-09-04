@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: url(../images/web.jpeg) no-repeat fixed center;
+	background: url(../images/web.jpg) no-repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1307,7 +1307,7 @@ header .logo a {
 	text-align: center;
 }
 .intro-overlay {
-		background: url(../images/web.jpg) no-repeat fixed center;
+	background: url(../images/web.jpg) no-repeat fixed center;
 	position: absolute;
 	top: 0;
 	left: 0;
